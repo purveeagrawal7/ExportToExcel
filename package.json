@@ -1,0 +1,30 @@
+{
+  "name": "react_export_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Purvee Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "create-react-class": "^15.6.3",
+    "react": "^16.4.2",
+    "react-data-export": "^0.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "body-parser": "*",
+    "express": "*"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
